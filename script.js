@@ -1,11 +1,11 @@
 const apiKey = "c43489316f17e5df06973e781cb07f8a";
-const apiUrl = "https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
+const apiUrl = "https://api.openweathermap.org/data/2.5/weather?units=metric&q=";
 const searchBox = document.querySelector(".search input");
 const searchBtn = document.querySelector(".search button");
 const weatherIcon = document.querySelector(".weather-icon");
 
-async function checkWeather() {
-    const response = await fetch(apiUrl + `&appid=${apiKey}`);
+async function checkWeather(city) {
+    const response = await fetch(apiUrl + city + `&appid=${apiKey}`);
 
     if(response.status == 404) {
         document.querySelector(".error").style.display = "block";
@@ -20,27 +20,27 @@ async function checkWeather() {
     document.querySelector(".wind").innerHTML = data.wind.speed + "km/hr";
 
     if(data.weather[0].main == "Clouds" ) {
-        weatherIcon.src = "clouds.png"
+        weatherIcon.src = "clouds.png";
     }
     else if(data.weather[0].main == "Drizzle") {
-        weatherIcon.src = "drizzle.png"
+        weatherIcon.src = "drizzle.png";
     }
     else if(data.weather[0].main == "Clear") {
-        weatherIcon.src = "clear.png"
+        weatherIcon.src = "clear.png";
     }
     else if(data.weather[0].main == "Mist") {
-        weatherIcon.src = "mist.png"
+        weatherIcon.src = "mist.png";
     }
     else if(data.weather[0].main == "Snow") {
-        weatherIcon.src = "snow.png"
+        weatherIcon.src = "snow.png";
     }
     
     document.querySelector(".weather").style.display ="block";
-    document.querySelector(".weather").style.display ="none";
+    document.querySelector(".error").style.display ="none";
     
     }
 }
 
-searchBtn.addEventListner("click", ()=> {
+searchBtn.addEventListener("click", ()=> {
     checkWeather(searchBox.value);
 })
