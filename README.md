@@ -2,8 +2,8 @@
 <p> Welcome to the repository for weather forecasting website which provides real-time and accurate weather updates, including temperature, precipitation, and forecasts for various locations. </p>
 
 <h2>Images</h2>
-<img src= https://github.com/user-attachments/assets/3a24f5a2-4388-437d-bd8c-ac9110af0dc5 />
-<img src= https://github.com/user-attachments/assets/7924bbfa-8f06-4afb-838d-2171142e4b6a />
+<img src= https://github.com/user-attachments/assets/3fb5efa5-53a5-4d06-a3b9-4da585bc6002 />
+<img src= https://github.com/user-attachments/assets/f7d1eef7-8a82-4e73-9e53-1f92d00fdfcf />
 
 ## Table of Contents
 - [About](#about)
@@ -18,13 +18,13 @@
 <h2>About</h2>
 <p>This weather forecasting website is designed to provides real-time and predictive weather updates, including temperature, precipitation, and severe weather alerts. </p>
 
-<h2>Features </h2>
+<h2>Features</h2>
 
 - **Simple Interface** : Easy-to-use design for quick weather checks.
 - **City-Based Search** : Enter a city name to get weather details.
--**Real-Time Weather Data** : Displays temperature, humidity, and wind speed.
--**Error Handling** : Shows "Invalid city name" for unrecognized locations.
--**Lightweight & Fast** : Loads quickly for instant weather updates.
+- **Real-Time Weather Data** : Displays temperature, humidity, and wind speed.
+- **Error Handling** : Shows "Invalid city name" for unrecognized locations.
+- **Lightweight & Fast** : Loads quickly for instant weather updates.
 
 ## Technologies Used
 
@@ -46,7 +46,7 @@ You can view the live version of weather forcasting website at: <a href = https:
     ```
 2. **Navigate to the project directory:**
     ```bash
-    cd Portfolio
+    cd weather
     ```
 3. **Install dependencies (if any):**
     ```bash
