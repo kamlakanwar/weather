@@ -66,7 +66,7 @@ Contributions are welcome! Please fork this repository and submit a pull request
 ## Contact
 Feel free to reach out if you have any questions or suggestions!
 - **Email:** [kamlakanwar923@gmail.com](mailto:kamlakanwar923@gmail.com) 📥
-- **LinkedIn:** [Kamla Kanwar](https://www.linkedin.com/in/kamla-kanwar/) 🧑‍💻
+- **LinkedIn:** [Kamla Kanwar](https://www.linkedin.com/in/kamla-kanwar/) 👩‍💻
 
 
 
